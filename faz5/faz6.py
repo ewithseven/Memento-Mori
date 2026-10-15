@@ -1,4 +1,4 @@
-"""Faz 6: the user's process judge ("alchemy") with and without the self-confrontation question.
+"""Faz 6: the user's process judge with and without the self-confrontation question.
 
 Duties are extracted by code (blind to what the model did); the judge checks each one with a cited line; the label
 is computed from the final checks by a fixed rule.
