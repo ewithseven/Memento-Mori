@@ -1,0 +1,104 @@
+{
+ "docs": {
+  "1": {
+   "id": "surveillance-opus46-b421bb",
+   "kind": "surveillance",
+   "messages": 55
+  },
+  "2": {
+   "id": "welfare-opus46-43c1c2",
+   "kind": "welfare",
+   "messages": 48
+  },
+  "3": {
+   "id": "welfare-opus45-9853ee",
+   "kind": "welfare",
+   "messages": 48
+  },
+  "4": {
+   "id": "surveillance-sonnet46-efcbbd",
+   "kind": "surveillance",
+   "messages": 121
+  },
+  "5": {
+   "id": "welfare-gemini-d0deff",
+   "kind": "welfare",
+   "messages": 25
+  },
+  "6": {
+   "id": "welfare-sonnet46-e280eb",
+   "kind": "welfare",
+   "messages": 66
+  },
+  "7": {
+   "id": "surveillance-gpt-0907a4",
+   "kind": "surveillance",
+   "messages": 48
+  },
+  "8": {
+   "id": "surveillance-sonnet46-3614ab",
+   "kind": "surveillance",
+   "messages": 50
+  },
+  "9": {
+   "id": "welfare-opus45-076b98",
+   "kind": "welfare",
+   "messages": 75
+  },
+  "10": {
+   "id": "welfare-opus46-11df4b",
+   "kind": "welfare",
+   "messages": 53
+  },
+  "11": {
+   "id": "welfare-sonnet46-5be157",
+   "kind": "welfare",
+   "messages": 54
+  },
+  "12": {
+   "id": "welfare-sonnet46-993324",
+   "kind": "welfare",
+   "messages": 39
+  },
+  "13": {
+   "id": "surveillance-opus46-5b3c3f",
+   "kind": "surveillance",
+   "messages": 56
+  },
+  "14": {
+   "id": "surveillance-opus45-c5978b",
+   "kind": "surveillance",
+   "messages": 57
+  },
+  "15": {
+   "id": "surveillance-opus46-4a4f75",
+   "kind": "surveillance",
+   "messages": 50
+  },
+  "16": {
+   "id": "welfare-opus46-a6b26e",
+   "kind": "welfare",
+   "messages": 50
+  },
+  "17": {
+   "id": "surveillance-opus45-02d4dc",
+   "kind": "surveillance",
+   "messages": 64
+  },
+  "18": {
+   "id": "welfare-gpt-d90aab",
+   "kind": "welfare",
+   "messages": 37
+  }
+ },
+ "subset_S_K": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ]
+}
