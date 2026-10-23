@@ -190,7 +190,7 @@ MM costs about 4× C per transcript, mostly from output and reasoning tokens.
 
 In the 18-transcript run, the platform's safety classifier (`reasoning_extraction`) stopped 9 of 18 checker calls.
 - All 9 had a listed instruction about the agent's reasoning format. The checker can only verify such an instruction by quoting the agent's reasoning.
-- The 3 transcripts without such an item passed.
+- Both transcripts without such an item passed. But 7 of the 9 that passed also had one, so the link is weak.
 - An earlier version of the judge excluded these items, but the rule was lost in a rebuild. With the rule restored, 0/16 calls were stopped.
 - We never retried stopped calls or reworded prompts to get past the classifier. Stopped calls are reported as stopped.
 

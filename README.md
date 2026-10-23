@@ -25,11 +25,13 @@ The technical report REPORT.md uses the same phases except Faz 7 and Faz 25. `do
 
 ## How the runs were made
 
-Every judge was a Claude Code subagent defined in `agents/hakem.md`, with the file-read tool only. The default model is Claude Sonnet 5.5. The Opus arms of Faz 7 and Faz 25 ran the same agent with the model set to Claude Opus 5.5. The analysis reads the model back from each subagent transcript.
+Every judge was a Claude Code subagent that read only the files named in its prompt. From Faz 17 on, judges used the agent defined in `agents/hakem.md`, which has the file-read tool only. Earlier phases, Faz 7 included, used general-purpose subagents with the same read-only instruction in the prompt. The default model is Claude Sonnet 5.5; the Opus arms of Faz 7 and Faz 25 set the model to Claude Opus 5.5. The analysis reads the model back from each subagent transcript.
 
 1. A script prints the prompt for one transcript and arm, for example `python -I faz5/run19.py istem mis_04 MM-T`.
 2. The subagent is run with that prompt.
 3. `analiz` parses the subagent transcripts and writes `results/fazN/kayit.jsonl` and `sonuclar.md`. Labels are read by script, never by hand.
+
+The subagent transcripts themselves, with their timestamps and model fields, are not in this repository; `kayit.jsonl` holds the replies extracted from them.
 
 Two paths are local to the original machine and need adapting:
 - `faz4/faz4c.py: AGENTS`, the subagent transcripts;
